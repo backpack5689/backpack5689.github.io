@@ -38,7 +38,7 @@
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #7a7a7a;
+    background-color: #c0c0c0;
   }
   #nav li a {
       display: block;
@@ -47,8 +47,8 @@
       text-decoration: none;
   }
   #nav li a:hover{
-      background-color: #555;
-      color:white;
+      background-color: #3176FF;
+      color:rgb(0, 0, 0);
   }
 
   h1{
