@@ -3,6 +3,7 @@ function stopwatch(){
     var time = 0;
     var interval;
     var offset;
+    this.isOn = false;
 
     function update(){
         time += delta();
@@ -36,7 +37,6 @@ function stopwatch(){
         return minutes + " : " + seconds + " . " + mili;
     };
 
-    this.isOn = false;
 
     this.start = function(){
         if(!this.isOn){
