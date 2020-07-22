@@ -49,6 +49,7 @@
   #nav li a:hover{
       background-color: #3176FF;
       color:white;
+      font-weight: bolder;
   }
 
   h1{
