@@ -6,7 +6,7 @@ let m = 0;
 //Define timer function
 function stopwatch(){
     ms++;
-    if(ms / 100===1){
+    if(ms / 1000 === 1){
         ms = 0;
         s++;
     }
@@ -15,7 +15,10 @@ function stopwatch(){
         m++;
     }
 
-    document.getElementById("")
+    document.getElementById("timerDisplay").innerHTML = m + ":" + s + ":" + ms
 }
+
+window.setInterval(stopwatch, 1);
+
 EventSource.onKeyDown(Timer.start())
 EventSource.onKeyRelease(Timer.stop())
