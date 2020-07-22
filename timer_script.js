@@ -20,5 +20,3 @@ function stopwatch(){
 
 window.setInterval(stopwatch, 1);
 
-EventSource.onKeyDown(Timer.start())
-EventSource.onKeyRelease(Timer.stop())
